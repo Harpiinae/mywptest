@@ -1,9 +1,12 @@
 /*
-Theme Name: Hyip WordPress Theme
-Author : Platinum Trade
-Description : Blog theme for PlanetHyip
-Version : 1.1
-Text Domain: hyipTheme
+Theme Name: My WP Theme
+Author: Oleksandr Kolodii
+Description: Blog theme for me
+Version: 1.0
+Text Domain: mywpTheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
 */
 
 @import '/dist/css/style.css' screen;
