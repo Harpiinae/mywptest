@@ -8,7 +8,6 @@
                 <li class="menu menu-item bannerThird"><p>SEO-продвижение<span>Лучшее продвижение сайта для вашего бизнеса</span></p></li>
             </ul>
             <div class="bannerContainer_left-textcenter">
-<!--                <a href="#" class="mybtn">Заказать консультацию</a>-->
                 <button type="button" class="mybtn" data-toggle="modal" data-target="#takeConsultation">Заказать консультацию</button>
             </div>
         </div>
