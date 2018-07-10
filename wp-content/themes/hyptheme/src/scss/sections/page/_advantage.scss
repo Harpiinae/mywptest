@@ -1,84 +1,11 @@
-.advantagesWrapContainer {
+.advantagesWrap {
   position: relative;
-  background-color: #f3f5f6;
+  background-color: $advantage-bg;
   display: inline-block;
   width: 100%;
   vertical-align: top;
 
-  .block1 {
-    background-color: #edf0f1;
-  }
-
-  .block2 {
-    background-color: #e8ebed;
-  }
-
-  .block3 {
-    background-color: #e2e7e8;
-  }
-
-  .block4 {
-    background-color: #dce2e4;
-  }
-
-  .advantagesContainerInfo {
-    text-align: center;
-    padding-top: 90px;
-    padding-bottom: 50px;
-
-    img {
-      height: 100px;
-    }
-
-    .title {
-      font-size: 1.5rem;
-      margin-top: 15px;
-    }
-
-    .info {
-      font-size: 1.125rem;
-      text-align: left;
-      max-height: 110px;
-      overflow: hidden;
-    }
-
-    .img {
-
-      &1 {
-        background: url("../img/advSafe.png");
-        background-repeat: no-repeat;
-        height: 150px;
-        background-position: center;
-      }
-      &2 {
-        background: url("../img/advQuality.png");
-        background-repeat: no-repeat;
-        height: 150px;
-        background-position: center;
-      }
-      &3 {
-        background: url("../img/advPrice.png");
-        background-repeat: no-repeat;
-        height: 150px;
-        background-position: center;
-      }
-      &4 {
-        background: url("../img/advSpeed.png");
-        background-repeat: no-repeat;
-        height: 150px;
-        background-position: center;
-      }
-    }
-  }
-
-  @media (max-width: 430px) {
-    .advantagesContainerInfo {
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-  }
-
-  .iconContainer{
+  .iconContainer {
     width: 100%;
     max-width: 1012px;
     display: block;
@@ -86,6 +13,82 @@
     min-height: 450px;
     z-index: 1;
     position: relative;
+
+    .block1 {
+      background-color: $advantage-bl1;
+    }
+
+    .block2 {
+      background-color: $advantage-bl2;
+    }
+
+    .block3 {
+      background-color: $advantage-bl3;
+    }
+
+    .block4 {
+      background-color: $advantage-bl4;
+    }
+
+    .advantagesContainerInfo {
+      text-align: center;
+      padding-top: 90px;
+      padding-bottom: 50px;
+
+      img {
+        height: 100px;
+      }
+
+      .title {
+        font-size: 1.5rem;
+        margin-top: 15px;
+      }
+
+      .info {
+        font-size: 1.125rem;
+        text-align: left;
+        max-height: 110px;
+        overflow: hidden;
+      }
+
+      .img {
+
+        &1 {
+          background: url("../img/advSafe.png");
+          background-repeat: no-repeat;
+          height: 150px;
+          background-position: center;
+        }
+        &2 {
+          background: url("../img/advQuality.png");
+          background-repeat: no-repeat;
+          height: 150px;
+          background-position: center;
+        }
+        &3 {
+          background: url("../img/advPrice.png");
+          background-repeat: no-repeat;
+          height: 150px;
+          background-position: center;
+        }
+        &4 {
+          background: url("../img/advSpeed.png");
+          background-repeat: no-repeat;
+          height: 150px;
+          background-position: center;
+        }
+      }
+    }
+  }/*end iconContainer*/
+
+  @media (max-width: 430px) {
+    .iconContainer {
+
+      .advantagesContainerInfo {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    }
   }
 
   &:after{
@@ -99,4 +102,4 @@
     height: 100%;
     z-index: 0;
   }
-}
+}/*end advantagesWrap*/

@@ -1,5 +1,5 @@
 <!-- ================== ADVANTAGES ================ -->
-<div class="advantagesWrapContainer">
+<div class="advantagesWrap">
     <ul class="row iconContainer">
         <div class="topTitle">
             <img src="<?php echo get_bloginfo('template_url')?>/dist/img/circlesAdv.png" alt="">
