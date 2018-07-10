@@ -1,3 +1,4 @@
+<!-- ================== BANNER ================ -->
 <div class="bannerWrap">
     <div class="innerContainer">
         <div class="col-xs-12 col-sm-6">
@@ -14,8 +15,9 @@
         <div class="col-xs-12 col-sm-6 bannerContainerImg"></div>
     </div>
 </div>
+<!-- ================== END BANNER ================ -->
 
-<!-- Modal -->
+<!-- ================== MODAL ================ -->
 <div id="takeConsultation" class="modal fade homePageModal" role="dialog">
     <div class="modal-dialog">
 
@@ -57,3 +59,4 @@
 
     </div>
 </div>
+<!-- ================== END MODAL ================ -->

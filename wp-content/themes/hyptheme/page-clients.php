@@ -5,6 +5,8 @@
 
 
 ?>
+
+<!-- ================== CLIENTS ================ -->
 <div class="clientWrap">
     <div class="clientInner">
         <div class="topTitle">
@@ -42,3 +44,4 @@
         </div>
     </div>
 </div>
+<!-- ================== END CLIENTS ================ -->

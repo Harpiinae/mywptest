@@ -1,8 +1,9 @@
-
+<!-- ================== FOOTER ================ -->
 <footer id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 
     <div class="row innerFooter">
         <div class="col-xs-12 col-sm-6 col-md-6 navFooter">
+            <!-- ================== NAVBAR FOOTER ================ -->
             <div class="col-xs-12 col-md-12">
                 <nav class="mynavbarBig navbar navbar-default" role="navigation" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -31,6 +32,9 @@
 
                 </nav>
             </div>
+            <!-- ================== END NAVBAR FOOTER ================ -->
+
+            <!-- ================== SOCIALS ================ -->
             <div class="col-xs-12 col-md-12">
                 <div class="col-xs-12 col-md-12">
                     <img src="<?php echo get_bloginfo('template_url')?>/dist/img/facebook.png" alt="">
@@ -40,7 +44,9 @@
                 <span>&copy; Sierra Group</span>
                 <span>&copy; Design by Tamara Bazko</span>
             </div>
+            <!-- ================== END SOCIALS ================ -->
         </div>
+        <!-- ================== INFO BLOCK ================ -->
         <div class="col-xs-12 col-sm-6 col-md-6 footerInfo">
             <div class="col-xs-6 col-md-6">
                 <div class="col-xs-12 col-md-12">
@@ -63,13 +69,14 @@
                 <span><?php echo get_field('officename', 'option'); ?></span>
             </div>
         </div>
+        <!-- ================== END INFO BLOCK ================ -->
     </div>
 
     <script async src='https://www.google.com/recaptcha/api.js'></script>
 	<?php wp_footer(); ?>
 
 </footer>
-
+<!-- ================== END FOOTER ================ -->
 
 
 </body>

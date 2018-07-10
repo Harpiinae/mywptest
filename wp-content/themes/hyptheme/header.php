@@ -55,6 +55,7 @@
 
         </nav>
 
+        <!-- ================== INFO PHONES ================ -->
         <div class="contactContainerBig col-xs-4 col-sm-3 col-md-2">
             <?php get_template_part('header-contact-us');?>
         </div>
@@ -62,6 +63,8 @@
         <div class="contactContainer col-xs-12 col-sm-3 col-md-2">
             <?php get_template_part('header-contact-us');?>
         </div>
+        <!-- ================== END INFO PHONES ================ -->
+
     </div>
 
 <!--           --><?php //get_template_part ('page-login');?>

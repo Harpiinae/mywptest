@@ -1,9 +1,12 @@
+<!-- ================== BLOG ================ -->
 <div class="blogWrap">
     <div class="postInner">
         <div class="topTitle">
             <img src="<?php echo get_bloginfo('template_url')?>/dist/img/circlesBlog.png" alt="">
             <span style="font-size: 2rem;">Наш блог</span>
         </div>
+        <!-- ================== BLOG POSTS ================ -->
+        <!-- ================== POST #1 ================ -->
         <div class="row">
             <div class="col-xs-12 col-md-12 postContainer">
                 <?php $args = array(
@@ -33,6 +36,9 @@
                 } ?>
             </div>
         </div>
+        <!-- ================== END POST #1 ================ -->
+
+        <!-- ================== POST #2 ================ -->
         <div class="row">
             <div class="col-xs-12 col-md-8 postContainer postMiddle">
                 <?php $args = array(
@@ -60,6 +66,9 @@
                     wp_reset_postdata();
                 } ?>
             </div>
+            <!-- ================== END POST #2 ================ -->
+
+            <!-- ================== POST #3 ================ -->
             <div class="col-xs-12 col-md-4 postContainer">
                 <?php $args = array(
                     'numberposts' => 1,
@@ -84,6 +93,9 @@
                 } ?>
             </div>
         </div>
+        <!-- ================== END POST #3 ================ -->
+
+        <!-- ================== POST #4 ================ -->
         <div class="row">
             <div class="col-xs-12 col-md-12 postContainer reverseContainer">
                 <?php $args = array(
@@ -112,7 +124,10 @@
                 } ?>
             </div>
         </div>
+        <!-- ================== END POST #4 ================ -->
+        <!-- ================== END BLOG POSTS ================ -->
 
         <a href="#" class="allPosts">Все статьи</a>
     </div>
 </div>
+<!-- ================== END BLOG ================ -->
