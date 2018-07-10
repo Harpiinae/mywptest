@@ -1,95 +1,89 @@
 .headerMain {
 
-  .navbar {
-    min-height: 90px;
-    border: none;
-    background-color: $white;
-  }
-
-  //.navbar-nav>li>a {
-  //  line-height: 60px;
-  //  color: $black !important;
-  //}
-
-  .navbar-nav {
-
-    li {
-
-      a {
-        line-height: 60px;
-        color: $black !important;
-
-        @media (max-width: $screen-xs-max) {
-          line-height: unset;
-        }
-      }
-    }
-  }
-
-  .mynavbarBig {
-    text-align: right;
-    background-color: transparent;
-  }
-
-  .navbar-header {
-    min-height: 70px;
-  }
-
-  .logoContainer,
-  .contactContainerBig {
-    margin-top: 10px;
-  }
-
-  .contactContainer,
-  .contactContainerBig{
-    text-align: center;
-
-    span {
-      display: block;
-    }
-  }
-
-  .contactContainerBig {
-    display: block;
-    @media (max-width: $screen-sm-min) {
-      display: none;
-    }
-  }
-
-  .contactContainer {
-    display: none;
-    @media (max-width: $screen-sm-min) {
-      display: block;
-    }
-  }
-
-  span {
-    padding: 0 !important;
-  }
-
-  #menu-menu {
-    float: right;
-  }
-
-  .navbar-toggle{
-    //float: none;
-  }
-
-  @media (min-width: $screen-sm-min) {
-
-    .collapse {
-      padding: 0;
-    }
-  }
-
-  @media (max-width: $screen-xs-max){
+  .innerContainer {
 
     .navbar {
-      min-height: unset;
+      min-height: 90px;
+      border: none;
+      background-color: $white;
+
+      .navbar-nav {
+
+        li {
+
+          a {
+            line-height: 60px;
+            color: $black !important;
+
+            @media (max-width: $screen-xs-max) {
+              line-height: unset;
+            }
+          }
+        }
+      }/*end navbar-nav*/
+    }/*end navbar*/
+
+    .mynavbarBig {
+      text-align: right;
+      background-color: transparent;
+
+      .navbar-header {
+        min-height: 70px;
+      }
+    }/*end mynavbarBig*/
+
+    .logoContainer,
+    .contactContainerBig {
+      margin-top: 10px;
+    }
+
+    .contactContainer,
+    .contactContainerBig{
+      text-align: center;
+
+      span {
+        display: block;
+      }
+    }
+
+    .contactContainerBig {
+      display: block;
+      @media (max-width: $screen-xs-max) {
+        display: none;
+      }
+    }
+
+    .contactContainer {
+      display: none;
+      @media (max-width: $screen-xs-max) {
+        display: block;
+      }
+    }
+
+    span {
+      padding: 0 !important;
     }
 
     #menu-menu {
-      float: none;
+      float: right;
     }
-  }
-}
+
+    @media (min-width: $screen-sm-min) {
+
+      .collapse {
+        padding: 0;
+      }
+    }
+
+    @media (max-width: $screen-xs-max){
+
+      .navbar {
+        min-height: unset;
+      }
+
+      #menu-menu {
+        float: none;
+      }
+    }
+  }/*end innerCotainer*/
+}/*end headerMain*/
