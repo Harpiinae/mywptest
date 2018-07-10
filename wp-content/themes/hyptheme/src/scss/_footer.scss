@@ -46,16 +46,6 @@
       }
     }
 
-    p {
-      color: #60aadb;
-      font-size: 18px;
-    }
-    
-    span {
-      display: block;
-      font-size: 16px;
-    }
-
     .footerInfo {
 
       .col-md-6 {
@@ -66,6 +56,16 @@
 
         &:last-child {
           padding-left: 20px;
+        }
+
+        p {
+          color: #60aadb;
+          font-size: 18px;
+        }
+
+        span {
+          display: block;
+          font-size: 16px;
         }
       }
     }
