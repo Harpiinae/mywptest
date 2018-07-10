@@ -14,7 +14,7 @@
     min-height: 450px;
     z-index: 1;
     position: relative;
-    padding-top: 80px;
+    padding-top: 90px;
     padding-bottom: 50px;
 
     .row {
@@ -75,15 +75,6 @@
       }
     }/*end postContainer*/
 
-    @media (min-width: $screen-md-min) {
-      .row {
-
-        &:hover {
-          height: 305px;
-        }
-      }
-    }
-
     .postMiddle {
       padding-right: 10px;
     }
@@ -95,6 +86,16 @@
       color: white;
       text-decoration: underline;
     }
+
+    @media (min-width: $screen-md-min) {
+      .row {
+
+        &:hover {
+          height: 305px;
+        }
+      }
+    }
+
     @media (max-width: $screen-sm-max) {
       .postContainer {
 
