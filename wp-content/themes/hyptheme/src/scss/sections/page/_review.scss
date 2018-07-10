@@ -18,25 +18,25 @@
 
     .reviewContainerInfo {
       margin: 10px 0;
-    }
 
-    img {
-      float: left;
-      margin-right: 10px;
-    }
+      img {
+        float: left;
+        margin-right: 10px;
+      }
 
-    .title {
-      font-size: 24px;
-    }
+      .title {
+        font-size: 24px;
+      }
 
-    .info {
-      font-size: 18px;
-    }
-  }
+      .info {
+        font-size: 18px;
+      }
+    }/*end reviewContainerInfo*/
+  }/*end infoInner*/
 
   @media (max-width: 430px) {
     .infoInner {
       padding-top: 40px;
     }
   }
-}
+}/*end reviewWrap*/
