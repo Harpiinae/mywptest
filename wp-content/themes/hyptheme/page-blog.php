@@ -3,7 +3,7 @@
     <div class="postInner">
         <div class="topTitle">
             <img src="<?php echo get_bloginfo('template_url')?>/dist/img/circlesBlog.png" alt="">
-            <span style="font-size: 2rem;">Наш блог</span>
+            <span style="font-size: 1.8rem;">Наш блог</span>
         </div>
         <!-- ================== BLOG POSTS ================ -->
         <!-- ================== POST #1 ================ -->

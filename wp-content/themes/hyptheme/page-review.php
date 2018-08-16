@@ -3,7 +3,7 @@
     <ul class="row infoInner">
         <div class="topTitle">
             <img src="<?php echo get_bloginfo('template_url')?>/dist/img/circlesRev.png" alt="">
-            <span style="font-size: 2rem;">Отзывы</span>
+            <span style="font-size: 1.8rem;">Отзывы</span>
         </div>
         <li class="col-xs-12 col-md-6 reviewContainerInfo">
             <img src="<?php echo get_bloginfo('template_url')?>/dist/img/kara.png" alt="">

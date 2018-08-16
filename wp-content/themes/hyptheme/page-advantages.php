@@ -3,7 +3,7 @@
     <ul class="row iconContainer">
         <div class="topTitle">
             <img src="<?php echo get_bloginfo('template_url')?>/dist/img/circlesAdv.png" alt="">
-            <span style="font-size: 2rem;">Наши преимущества</span>
+            <span style="font-size: 1.8rem;">Наши преимущества</span>
         </div>
         <li class="col-xs-6 col-md-3 block1 advantagesContainerInfo">
             <div class="img1"></div>

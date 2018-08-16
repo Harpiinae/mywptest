@@ -11,7 +11,7 @@
     <div class="clientInner">
         <div class="topTitle">
             <img src="<?php echo get_bloginfo('template_url')?>/dist/img/circlesClient.png" alt="">
-            <span style="font-size: 2rem;">Наши клиенты</span>
+            <span style="font-size: 1.8rem;">Наши клиенты</span>
         </div>
         <div class="row">
             <div class="col-xs-12 col-md-12">
