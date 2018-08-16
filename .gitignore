@@ -63,8 +63,8 @@ wp-includes
 
 languages
 upgrade
-!uploads
+uploads
 
 node_modules
-dist
+!dist
 dummy
